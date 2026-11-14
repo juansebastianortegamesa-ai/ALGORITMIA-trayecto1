@@ -1,7 +1,7 @@
 Algoritmo validadRegistro
 	definir edad Como Entero
 	definir respuesta Como Caracter
-	Escribir "cuantos a�os tienes?" 
+	Escribir "cuantos años tienes?" 
 	leer edad
 	Escribir "aceptas los terminos?"
 	leer respuesta

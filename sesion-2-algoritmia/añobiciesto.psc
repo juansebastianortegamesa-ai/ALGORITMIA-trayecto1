@@ -1,15 +1,12 @@
 Algoritmo parqueaderocff
-	Definir a�o Como Entero
+	Definir año Como Entero
 	
-	Escribir  "ingrese el a�o"; leer a�o
-	SI (a�o %4  = 0 Y  a�o %100 <> 0 ) O ( a�o %400 = 0 ) Entonces
-		Escribir ("a�o biciesto")
+	Escribir  "ingrese el año"; leer año
+	SI (año %4  = 0 Y  año %100 <> 0 ) O ( año %400 = 0 ) Entonces
+		Escribir ("año biciesto")
 	SiNo
-		Escribir ("a�o no biciesto")
+		Escribir ("año no biciesto")
 	
 	FinSi
-
-	
-	
-	
+		
 FinAlgoritmo

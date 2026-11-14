@@ -3,11 +3,11 @@ Algoritmo propinas
 	Definir propina, total, cadaUno Como Real
 	Repetir
 		Escribir 'Calculadora de Propinas'
-		Escribir 'Cuánto es vale la cuenta?:'
+		Escribir 'Cuanto es vale la cuenta?:'
 		Leer cuenta
 		Escribir 'Escribe el porcentaje de propina (0 a 100):'
 		Leer porcentajePropina
-		Escribir 'Número de personas:'
+		Escribir 'Numero de personas:'
 		Leer personas
 		Si cuenta<=0 O personas<=0 Entonces
 			Escribir 'Error: La cuenta y las personas deben ser mayores a cero.'
